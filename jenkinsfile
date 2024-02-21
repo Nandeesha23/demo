@@ -1,7 +1,7 @@
 pipeline {
   agent any  
 tools{
-       maven 'maven'
+       maven 'Apache Maven 3.9.6'
        // without mavenSettingsConfig, my settings.xml is not used.  With it, this blows up
        mavenSettingsConfig: 'Global Maven Settings'
    }
