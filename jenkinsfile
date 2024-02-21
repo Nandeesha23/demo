@@ -5,7 +5,6 @@ pipeline {
         // without mavenSettingsConfig, my settings.xml is not used.  With it, this blows up
          mavenSettingsConfig: 'Global Maven Settings'
      }
-  }
   stages {
     stage('Checkout') {
       steps {
